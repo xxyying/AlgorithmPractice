@@ -62,6 +62,15 @@ public class L173BinarySearchTreeIterator {
     		root = root.left;
     	}
     }
+    
+    public static String stackToString() {
+    	StringBuilder sb = new StringBuilder();
+    	for (TreeNode node : stack) {
+    		sb.append(node.val);
+    		sb.append(' ');
+    	}
+    	return sb.toString();
+    }
 	
 /*
  * 			 5
@@ -86,6 +95,7 @@ public class L173BinarySearchTreeIterator {
 		int next = test1.next();
 		
 		System.out.println("-----------------------------test---------------------------");
+		System.out.println("Elements in stack: [" + stackToString() + "]");
 		System.out.println("Current node is: " + root.val);
 		System.out.println("Does it has next smallest value? " + b1);
 		System.out.println("The next smallest value is: " + next);
@@ -95,6 +105,7 @@ public class L173BinarySearchTreeIterator {
 		int next2 = test1.next();
 		
 		System.out.println("-----------------------------test---------------------------");
+		System.out.println("Elements in stack: [" + stackToString() + "]");
 		System.out.println("Current node is: " + root.val);
 		System.out.println("Does it has next smallest value? " + b2);
 		System.out.println("The next smallest value is: " + next2);
