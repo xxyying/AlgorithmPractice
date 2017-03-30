@@ -102,7 +102,7 @@ public class L173BinarySearchTreeIterator {
 
 //		// test2
 		boolean b2 = test1.hasNext();
-		int next2 = test1.next();
+		int next2 = test1.next();  
 		
 		System.out.println("-----------------------------test---------------------------");
 		System.out.println("Elements in stack: [" + stackToString() + "]");
