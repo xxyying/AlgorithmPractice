@@ -26,14 +26,7 @@ import java.util.Stack;
  * while (i.hasNext()) v[f()] = i.next();
  */
 
-class TreeNode {
-	int val;
-	TreeNode left;
-	TreeNode right;
-	TreeNode(int x) {
-		val = x;
-	}
-}
+
 
 public class L173BinarySearchTreeIterator {
 	
