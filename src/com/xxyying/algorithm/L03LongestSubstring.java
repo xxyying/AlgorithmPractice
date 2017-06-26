@@ -39,7 +39,7 @@ public class L03LongestSubstring {
         }
         return max;
 		
-// SOLUTION 2 -- Hashmap
+// SOLUTION 2 --- Hashmap
 //
 //		 if (s.length()==0) return 0;
 //	        HashMap<Character, Integer> map = new HashMap<Character, Integer>();
