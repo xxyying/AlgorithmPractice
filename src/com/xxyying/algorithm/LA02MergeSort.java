@@ -22,7 +22,7 @@ What if the given array is of length zero? In this case, we do not need to do an
 
 
 public class LA02MergeSort {
-
+=
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
